@@ -85,9 +85,9 @@
     ```
 
     ## Documentation
-    For detailed API documentation, run:
+    For detailed  documentation, go to link bellow:
     ```bash
-    pydoc Captcha
+    (https://captcha.lepture.com)
     ```
 
     ## Contributing
