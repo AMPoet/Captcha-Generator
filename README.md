@@ -65,11 +65,11 @@
     - Implement rate limiting to prevent brute force attacks
 
   ## Performance
-    - Generates CAPTCHA images in milliseconds
-    - Lightweight and efficient
-    - Minimal memory usage
+  - Generates CAPTCHA images in milliseconds
+  - Lightweight and efficient
+  - Minimal memory usage
   ## Output:
-      ![captcha image](https://github.com/AMPoet/Captcha-Generator/blob/main/captcha.png?raw=true)
+  ![captcha image](https://github.com/AMPoet/Captcha-Generator/blob/main/captcha.png?raw=true)
 
   ## Future Enhancements
     - Add support for different fonts and styles
