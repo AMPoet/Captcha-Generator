@@ -32,16 +32,15 @@
     ```
   ## Usage
   ### Basic Usage
-    ```python
     from Captcha import generate_and_save_captcha
 
   # Generate a CAPTCHA with default settings
     captcha_text = generate_and_save_captcha()
     print(f"Generated CAPTCHA: {captcha_text}")
-    ```
+    
 
   ## Advanced Usage
-    ```python
+  
     from Captcha import generate_and_save_captcha
 
   # Generate a CAPTCHA with custom settings
@@ -51,7 +50,7 @@
         captcha_length=8,
         image_path='path/to/save/captcha.png'
     )
-    ```
+    
 
   ## Parameters
     - `image_width`: Width of the CAPTCHA image (default: 280)
@@ -70,7 +69,7 @@
     - Lightweight and efficient
     - Minimal memory usage
   ## Output:
-      ![captcha image]()
+      ![captcha image](https://github.com/AMPoet/Captcha-Generator/blob/main/captcha.png?raw=true)
 
   ## Future Enhancements
     - Add support for different fonts and styles
