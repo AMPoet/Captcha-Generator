@@ -1,68 +1,68 @@
   # CAPTCHA Generator
 
   ## Overview
-    This is a simple Python-based CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) generator. It creates random alphanumeric CAPTCHA images that can be used for various authentication purposes.
+  This is a simple Python-based CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) generator. It creates random alphanumeric CAPTCHA images that can be used for various authentication purposes.
 
   ## Features
-    - Generates random alphanumeric CAPTCHA text
-    - Creates CAPTCHA images with customizable dimensions
-    - Saves CAPTCHA images to specified location
-    - Easy to integrate with other applications
-    - Supports both uppercase and lowercase letters
-    - Includes digits for increased complexity
-    - Automatically displays generated CAPTCHA image
+  - Generates random alphanumeric CAPTCHA text
+  - Creates CAPTCHA images with customizable dimensions
+  - Saves CAPTCHA images to specified location
+  - Easy to integrate with other applications
+  - Supports both uppercase and lowercase letters
+  - Includes digits for increased complexity
+  - Automatically displays generated CAPTCHA image
     
   ## Requirements
-    - Python 3.6 or higher
-    - Pillow library (`pip install pillow`)
-    - captcha library (`pip install captcha`)
+  - Python 3.6 or higher
+  - Pillow library (`pip install pillow`)
+  - captcha library (`pip install captcha`)
 
   ## Installation
-    1. Clone the repository:
-    ```bash
-    git clone https://github.com/AMPoet/Captcha_Generator.git
-    ```
-    2. Navigate to the project directory:
-    ```bash
-    cd Captcha_Generator
-    ```
-    3. Install the required packages:
-    ```bash
-    pip install -r requirements.txt
-    ```
+  1. Clone the repository:
+  ```bash
+  git clone https://github.com/AMPoet/Captcha_Generator.git
+  ```
+  2. Navigate to the project directory:
+  ```bash
+  cd Captcha_Generator
+   ```
+  3. Install the required packages:
+  ```bash
+  pip install -r requirements.txt
+  ```
   ## Usage
   ### Basic Usage
-    from Captcha import generate_and_save_captcha
+  -from Captcha import generate_and_save_captcha
 
   # Generate a CAPTCHA with default settings
-    captcha_text = generate_and_save_captcha()
-    print(f"Generated CAPTCHA: {captcha_text}")
+  -captcha_text = generate_and_save_captcha()
+  -print(f"Generated CAPTCHA: {captcha_text}")
     
 
   ## Advanced Usage
   
-    from Captcha import generate_and_save_captcha
-
+  from Captcha import generate_and_save_captcha
+ 
   # Generate a CAPTCHA with custom settings
-    captcha_text = generate_and_save_captcha(
-        image_width=400,
-        image_height=150,
-        captcha_length=8,
-        image_path='path/to/save/captcha.png'
+  captcha_text = generate_and_save_captcha(
+        -image_width=400,
+        -image_height=150,
+        -captcha_length=8,
+        -image_path='path/to/save/captcha.png'
     )
     
 
   ## Parameters
-    - `image_width`: Width of the CAPTCHA image (default: 280)
-    - `image_height`: Height of the CAPTCHA image (default: 90)
-    - `captcha_length`: Length of the CAPTCHA text (default: 6)
-    - `image_path`: Path to save the generated CAPTCHA image (default: 'your path / captcha.png')
+  - `image_width`: Width of the CAPTCHA image (default: 280)
+  - `image_height`: Height of the CAPTCHA image (default: 90)
+  - `captcha_length`: Length of the CAPTCHA text (default: 6)
+  - `image_path`: Path to save the generated CAPTCHA image (default: 'your path / captcha.png')
 
   ## Security Considerations
-    - Use longer CAPTCHA lengths (8+ characters) for higher security
-    - Consider adding distortion or noise to the images for better security
-    - Store CAPTCHA text securely for validation
-    - Implement rate limiting to prevent brute force attacks
+  - Use longer CAPTCHA lengths (8+ characters) for higher security
+  - Consider adding distortion or noise to the images for better security
+  - Store CAPTCHA text securely for validation
+  - Implement rate limiting to prevent brute force attacks
 
   ## Performance
   - Generates CAPTCHA images in milliseconds
@@ -72,27 +72,27 @@
   ![captcha image](https://github.com/AMPoet/Captcha-Generator/blob/main/captcha.png?raw=true)
 
   ## Future Enhancements
-    - Add support for different fonts and styles
-    - Implement image distortion and noise
-    - Add support for mathematical CAPTCHAs
-    - Create a web interface for CAPTCHA generation
-    - Add support for different languages
+  - Add support for different fonts and styles
+  - Implement image distortion and noise
+  - Add support for mathematical CAPTCHAs
+  - Create a web interface for CAPTCHA generation
+  - Add support for different languages
 
   ## Testing
-    To run the included tests:
-    ```bash
-    python -m unittest discover tests
-    ```
+  To run the included tests:
+  ```bash
+   python -m unittest discover tests
+  ```
     
   ## Documentation
-    For detailed  documentation, go to link bellow:
-    ```bash
-    (https://captcha.lepture.com)
-    ```
+  For detailed  documentation, go to link bellow:
+  ```bash
+  (https://captcha.lepture.com)
+  ```
 
 
   ## Contributing
-    Contributions are welcome! Please follow these steps:
+  Contributions are welcome! Please follow these steps:
     1. Fork the repository
     2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
     3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
@@ -101,30 +101,30 @@
 
 
    ## Code of Conduct
-    Please note that this project is released with a Contributor Code of Conduct. By participating in this project you agree to abide by its terms.
+  Please note that this project is released with a Contributor Code of Conduct. By participating in this project you agree to abide by its terms.
 
 
   ## Support
-    If you encounter any issues or have questions, please open an issue on GitHub.
+  If you encounter any issues or have questions, please open an issue on GitHub.
 
   ## Acknowledgments
-    - Thanks to the developers of the `captcha` and `Pillow` libraries
-    - Inspired by various CAPTCHA implementations across the web
-    - Special thanks to the open source community for their contributions
+  - Thanks to the developers of the `captcha` and `Pillow` libraries
+  - Inspired by various CAPTCHA implementations across the web
+  - Special thanks to the open source community for their contributions
 
   ## Version History
-    - 1.0.0 (Initial Release)
+  - 1.0.0 (Initial Release)
         - Basic CAPTCHA generation functionality
         - Customizable image dimensions and text length
         - Automatic image display
 
   ## Contact
-    For any inquiries, please contact:
+  For any inquiries, please contact:
     - Email: hitechnologies25@gmail.com
     - GitHub: [AMPoet](https://github.com/AMPoet)
 
 
-    # Keywords for SEO and Discoverability
+  #Keywords for SEO and Discoverability
     - Python CAPTCHA Generator
     - Automated CAPTCHA Creation
     - Image CAPTCHA Library
